@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from '../../assets/banner-book.png'
 
 const Banner = () => {
     return (
@@ -7,7 +8,7 @@ const Banner = () => {
             <h2 className='text-6xl/18 font-bold mb-15'>Books to freshen up your bookshelf</h2>
             <button className="btn p-6 bg-[#23BE0A] text-white">View The List</button>
             </div>
-            <img className='h-96 mr-10' src="/src/assets/banner-book.png" alt="here was a picture of a book" />
+            <img className='h-96 mr-10' src={Image} alt="here was a picture of a book" />
         </div>
     );
 };
